@@ -1,0 +1,170 @@
+body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+	background: url(../images/1.jpg);  /* Фон */
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    }
+   
+   @font-face {
+    font-family: 'HP';
+    src: url('../text/10467.ttf') format('truetype');
+			  }
+  
+
+
+h1 {
+	font-family: 'HP';
+	font-style:  normal;
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: 	#BC8F8F; /* Цвет текста */
+	text-align: center;
+	letter-spacing: 4px;
+      }
+   
+   
+h2 {
+	font-family: 'HP';
+	font-style:  normal;
+    font-size: 36px; /* Размер шрифта */
+	color: 	#BC8F8F; /* Цвет текста */
+    margin-top: 0; /* Убираем отступ сверху */
+	text-align: center;
+      }
+   
+     @media all and (min-width: 10in) {
+		 
+#head { /* Шапка */ 
+	width: 0%; /* Ширина колонки */ 
+	padding: 0%; /* Поля вокруг текста */ 
+	margin:3% 5% 0% 11%; /* Значения отступов */ 
+	border-radius: 10px; 
+	line-height: 1.5; 
+	opacity: 1.7;
+	}
+#sidebar { /* Cредняя колонка*/ 
+    position: absolute;
+	background-color: #77A1A0;
+	word-spacing: 20px; 
+	background: #ffffff; /* Цвет фона */ 
+	width: 16%; /* Ширина колонки */ 
+	padding: 0%; /* Поля вокруг текста */ 
+	margin: -26% 0% 7% 2%; /* Значения отступов */ 
+	border-radius: 10px; 
+	line-height: 1.5; 
+	opacity: 1.7;
+	transition: all 500ms linear 0ms;
+	 visibility: hidden;
+	
+
+	}
+#sidebar:hover {
+   box-shadow: 0 0 40px 40px #13C4A5 inset;
+   transition: box-shadow 500ms linear 0ms;
+	}
+	
+	.hamburger{display:none;visibility:hidden;}
+	.menu{display:none;visibility:hidden;}
+	#hd{display:none;visibility:hidden;}
+	#head1{display:none;visibility:hidden;}
+	
+li {
+	line-height: 200%;
+   }
+	
+}	
+
+
+	
+form {
+	 text-align: center; 
+	 margin:3% 5% 0% 11%;
+}
+	
+.shar
+	{
+		
+	text-align: center;
+	background: url(../images/450.png);
+    color: red;
+    padding-top: 13px;
+    width: 222px;
+    padding-left: 13px;
+    padding-right: 9px;
+    height: 231px;
+    margin: -4% 0% 0% 35%;
+	padding-bottom:0px;
+	left: 170px;
+	right: 0;
+	}
+	
+h1.line1{
+		
+	 
+	margin-top:70px;
+    color: red;
+	border-radius: 100px; /* Радиус скругления */
+    box-shadow: 2px 0px 7px 2px white, 5px 2px 13px #333;
+ text-shadow: #5dc8e5 0 0 10px; /* Свечение голубого цвета */
+    color: #000000;
+
+	}
+	
+
+ 
+A {
+    color: #526cd8; /* Цвет ссылок */
+
+   }
+  
+A:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+   
+
+   .w{
+	   text-align: center;
+	    color: #ffffff;
+	
+   }
+   
+#content { /* Контент */
+    background:  #ffffff; /* Цвет фона */
+    margin: 13% 10% 8% 23%; /* Значения отступов */
+    padding: 2%; /* Поля вокруг текста */
+    width: 51%;
+	color: #77A1A0;
+	opacity: 1.7;
+	border-radius: 10px; 
+	overflow: auto; 
+	 text-indent: 20px; 
+	}
+   
+P.fig {
+    text-align: center; /* Выравнивание по центру */
+   }
+p:first-letter {
+    font-family: "HP"; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: #BC8F8F; /* Красный цвет текста */
+   }
+   
+
+#footer { /* Нижний блок */
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    background: #333; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /*Отменяет действие float */
+   }
+   
+   
+   
+  
+
+
+  
+  
+ 

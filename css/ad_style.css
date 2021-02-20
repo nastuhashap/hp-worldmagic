@@ -1,0 +1,21 @@
+body{
+    background: url(../images/1.jpg); 
+}
+.admin{
+    width: 28%;
+    padding: 2%;
+    margin: 5% 0% 0% 38%;
+    border-radius: 60px;
+    background-color: #ccc6c6;
+    text-indent: 0px;
+    line-height: 1.5;
+    font-size: 36px;
+}
+ input.text {
+    width:  200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+}
